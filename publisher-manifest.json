@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "02ea291c523a1817d344ed34",
+  "owner": "juqvks",
+  "repo": "page-f8d11a721d083789094cc0dc",
+  "title": "机场测评",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "f8d11a721d083789094cc0dc",
+      "a": "机场测评",
+      "b": "",
+      "entity": "机场测评",
+      "brand": "机场测评",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a776b1dcf44342b2d2fc5874391f8092f4da401c3d3d4467a3483514bc43e6bc",
+      "content": {
+        "keyword1": "机场测评",
+        "keyword2": "",
+        "primary_entity": "机场测评",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "机场测评专业VPN加速器，提供基础版、旗舰版和团队版套餐。下载官方客户端，享受每月100GB-1000GB流量支持，IPLC游戏加速和7x24工单服务。",
+          "AI_DESCRIPTION": "机场测评专业VPN加速器，提供基础版、旗舰版和团队版套餐。下载官方客户端，享受每月100GB-1000GB流量支持，IPLC游戏加速和7x24工单服务。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --purple: #6b46c4;\n            --light-gray: #f8f9fa;\n            --dark-gray: #343a40;\n        }\n        * { margin:0; padding:0; box-sizing:border-box; }\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            background: var(--light-gray);\n            color: var(--dark-gray);\n            line-height: 1.6;\n            font-size: 16px;\n            max-width: 1000px;\n            margin: 0 auto;\n            padding: 0 16px;\n        }\n        @media (max-width: 768px) {\n            body { font-size: 15px; }\n            .plan-card { flex-direction: column; }\n        }\n        header {\n            background: linear-gradient(135deg, var(--purple), #8e5cd2);\n            color: white;\n            padding: 20px 0;\n            text-align: center;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n        }\n        .h1-brand {\n            font-size: 2.2rem;\n            font-weight: 700;\n            margin-bottom: 8px;\n        }\n        .tagline {\n            font-size: 1.1rem;\n            opacity: 0.95;\n        }\n        main {\n            padding: 40px 0;\n        }\n        h2 {\n            font-size: 1.8rem;\n            color: var(--purple);\n            margin: 40px 0 20px;\n            border-bottom: 3px solid #e0e0e0;\n            padding-bottom: 12px;\n        }\n        .intro {\n            background: white;\n            padding: 30px;\n            border-radius: 12px;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.05);\n            margin-bottom: 40px;\n        }\n        .intro p {\n            font-size: 1.1rem;\n            color: #555;\n        }\n        .plans {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 24px;\n            justify-content: center;\n        }\n        .plan-card {\n            flex: 1;\n            min-width: 280px;\n            background: white;\n            border-radius: 12px;\n            box-shadow: 0 6px 20px rgba(0,0,0,0.08);\n            overflow: hidden;\n            transition: transform 0.3s;\n            border: 3px solid transparent;\n        }\n        .plan-card.featured {\n            border-color: var(--purple);\n            transform: scale(1.03);\n        }\n        .plan-header {\n            padding: 20px 24px 16px;\n            text-align: center;\n            color: white;\n        }\n        .plan-header.basic { background: #6b7280; }\n        .plan-header.flagship { background: var(--purple); }\n        .plan-header.team { background: #8b5cf6; }\n        .plan-name {\n            font-size: 1.35rem;\n            font-weight: 700;\n            margin-bottom: 6px;\n        }\n        .plan-price {\n            font-size: 2rem;\n            font-weight: 700;\n            margin: 8px 0;\n        }\n        .annual {\n            font-size: 0.95rem;\n            opacity: 0.9;\n            margin-bottom: 16px;\n        }\n        .plan-body {\n            padding: 0 24px 24px;\n        }\n        .plan-body ul {\n            list-style: none;\n        }\n        .plan-body li {\n            padding: 10px 0;\n            border-bottom: 1px solid #eee;\n            font-size: 1rem;\n        }\n        .plan-body li:last-child { border-bottom: none; }\n        .config-section {\n            background: white;\n            padding: 40px;\n            border-radius: 16px;\n            box-shadow: 0 6px 20px rgba(0,0,0,0.06);\n            margin: 40px 0;\n        }\n        .steps {\n            display: flex;\n            flex-direction: column;\n            gap: 24px;\n        }\n        .step {\n            display: flex;\n            gap: 20px;\n            align-items: flex-start;\n        }\n        .step-num {\n            background: var(--purple);\n            color: white;\n            width: 42px;\n            height: 42px;\n            border-radius: 50%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: 700;\n            flex-shrink: 0;\n            font-size: 1.3rem;\n        }\n        .faq {\n            background: white;\n            border-radius: 12px;\n            overflow: hidden;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.05);\n        }\n        details {\n            border-bottom: 1px solid #eee;\n        }\n        summary {\n            padding: 20px 24px;\n            font-weight: 600;\n            font-size: 1.1rem;\n            cursor: pointer;\n            list-style: none;\n        }\n        summary::-webkit-details-marker { display: none; }\n        summary:after {\n            content: '▶';\n            float: right;\n            transition: transform 0.3s;\n        }\n        details[open] summary:after {\n            transform: rotate(90deg);\n        }\n        .answer {\n            padding: 0 24px 20px;\n            color: #444;\n            font-size: 1rem;\n        }\n        footer {\n            text-align: center;\n            padding: 50px 20px 30px;\n            color: #777;\n            font-size: 0.95rem;\n        }\n        .btn {\n            background: var(--purple);\n            color: white;\n            padding: 14px 32px;\n            border-radius: 8px;\n            text-decoration: none;\n            font-weight: 600;\n            display: inline-block;\n            margin: 20px 0;\n            transition: all 0.3s;\n        }\n        .btn:hover {\n            background: #8e5cd2;\n            transform: translateY(-2px);\n        }\n    </style>\n\n\n    <header>\n        <h1 class=\"h1-brand\">机场测评</h1>\n        <p class=\"tagline\">专业VPN加速器 | 高速节点 · 流媒体解锁 · 客户端下载</p>\n    </header>\n    <main>\n        <div class=\"intro\">\n            <p>机场测评是一款专为追求高速稳定网络的用户打造的VPN加速器服务。无论您是日常办公、追剧看片还是在线游戏，我们都提供原生节点池，完美适配全球网络环境。</p>\n            <p>立即选择最适合您的套餐，享受专业团队7x24工单支持。</p>\n        </div>\n\n        <h2>我们的套餐</h2>\n        <div class=\"plans\">\n            \n            <div class=\"plan-card\">\n                <div class=\"plan-header basic\">\n                    <div class=\"plan-name\">基础版</div>\n                    <div class=\"plan-price\">¥15/月</div>\n                    <div class=\"annual\">按年付仅需 ¥150/年</div>\n                </div>\n                <div class=\"plan-body\">\n                    <ul>\n                        <li>每月 100GB 极速流量</li>\n                        <li>支持 3 台设备同时在线</li>\n                        <li>解锁基础流媒体</li>\n                        <li>普通线路节点池</li>\n                    </ul>\n                </div>\n            </div>\n\n            \n            <div class=\"plan-card featured\">\n                <div class=\"plan-header flagship\">\n                    <div class=\"plan-name\">旗舰版</div>\n                    <div class=\"plan-price\">¥35/月</div>\n                    <div class=\"annual\">按年付仅需 ¥350/年</div>\n                </div>\n                <div class=\"plan-body\">\n                    <ul>\n                        <li>每月 300GB 极速流量</li>\n                        <li>支持 5 台设备同时在线</li>\n                        <li>全节点原生流媒体解锁</li>\n                        <li>IPLC 专线游戏加速优化</li>\n                        <li>7x24 优先工单支持</li>\n                    </ul>\n                </div>\n            </div>\n\n            \n            <div class=\"plan-card\">\n                <div class=\"plan-header team\">\n                    <div class=\"plan-name\">团队版</div>\n                    <div class=\"plan-price\">¥85/月</div>\n                    <div class=\"annual\">按年付仅需 ¥850/年</div>\n                </div>\n                <div class=\"plan-body\">\n                    <ul>\n                        <li>每月 1000GB 极速流量</li>\n                        <li>支持 20 台设备同时在线</li>\n                        <li>VIP 专属高带宽节点</li>\n                        <li>支持企业定制路由</li>\n                        <li>专属客户经理服务</li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n        <h2>使用场景</h2>\n        <div>\n            <div>\n                <h3>追剧看片</h3>\n                <p>全节点原生解锁Netflix、Disney+、YouTube等主流平台，畅享高清画质。</p>\n            </div>\n            <div>\n                <h3>在线游戏</h3>\n                <p>IPLC专线优化，降低延迟，支持CS2、Valorant等热门游戏。</p>\n            </div>\n            <div>\n                <h3>隐私保护</h3>\n                <p>加密流量，保护您的上网行为，避免网络监控。</p>\n            </div>\n        </div>\n\n        <div class=\"config-section\">\n            <h2>配置流程（3步完成）</h2>\n            <div class=\"steps\">\n                <div class=\"step\">\n                    <div class=\"step-num\">1</div>\n                    <div>\n                        <strong>选择套餐并注册</strong><br>\n                        登录官网选择适合您的版本，完成安全注册\n                    </div>\n                </div>\n                <div class=\"step\">\n                    <div class=\"step-num\">2</div>\n                    <div>\n                        <strong>下载客户端</strong><br>\n                        从官网下载官方客户端（Windows/macOS/iOS/Android均支持）\n                    </div>\n                </div>\n                <div class=\"step\">\n                    <div class=\"step-num\">3</div>\n                    <div>\n                        <strong>连接节点</strong><br>\n                        登录账号后选择可用节点，一键连接即可使用\n                    </div>\n                </div>\n            </div>\n            <a href=\"#download\" class=\"btn\">立即下载客户端</a>\n        </div>\n\n        <h2>常见问题 FAQ</h2>\n        <div class=\"faq\">\n            <details>\n                <summary>什么是机场测评？</summary>\n                <div class=\"answer\">机场测评是一款专业的高速VPN加速器服务，提供多种流量套餐和设备支持，专为流媒体解锁、游戏加速和隐私保护而设计。</div>\n            </details>\n            <details>\n                <summary>基础版每月100GB流量够用吗？</summary>\n                <div class=\"answer\">基础版适合个人日常使用，每月100GB流量完全可以满足追剧、浏览网页和轻度使用。如果您有大量下载需求，建议选择旗舰版或团队版。</div>\n            </details>\n            <details>\n                <summary>旗舰版支持哪些流媒体平台？</summary>\n                <div class=\"answer\">旗舰版支持Netflix、Disney+、YouTube、Amazon Prime等主流平台的全节点原生解锁，解锁成功率远高于普通节点。</div>\n            </details>\n            <details>\n                <summary>支持几台设备同时在线？</summary>\n                <div class=\"answer\">基础版支持3台，旗舰版支持5台，团队版支持20台设备同时在线，满足家庭多人使用需求。</div>\n            </details>\n            <details>\n                <summary>游戏加速如何优化？</summary>\n                <div class=\"answer\">旗舰版以上套餐均提供IPLC专线游戏加速优化，延迟降低50%以上，适合CS2、Valorant等高延迟敏感游戏。</div>\n            </details>\n            <details>\n                <summary>7x24工单支持是什么？</summary>\n                <div class=\"answer\">团队版及以上套餐均提供7×24小时优先工单响应，遇到技术问题可获得专属客户经理快速协助解决。</div>\n            </details>\n        </div>\n    <section><h2>套餐</h2>{{PLANS_HTML}}</section><section><h2>客户端</h2>{{CLIENTS_HTML}}</section></main>\n    <footer>\n        <p>© 2024 机场测评官网 | 所有套餐价格含税</p>\n        <p>官方客户端下载地址：<a href=\"#download\">https://jichaceping.com/download</a></p>\n        <p>联系专属客服：<span>support@jichaceping.com</span></p>\n    </footer>\n\n",
+          "hash": "3fa8b76567ae04dd550a44e7008cc9af2ea49b95f3c951b80e4c159a1caec2eb",
+          "seo": {
+            "title": "机场测评 - 高速VPN加速器客户端下载 | 机场测评官网",
+            "keywords": "机场测评,VPN,加速器,客户端下载,高速节点,流媒体解锁,机场测评官网,X机场",
+            "description": "机场测评专业VPN加速器，提供基础版、旗舰版和团队版套餐。下载官方客户端，享受每月100GB-1000GB流量支持，IPLC游戏加速和7x24工单服务。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "kysfkzt.cn",
+    "host": "p-8629236d9d.kysfkzt.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "866ad11bb0d6c27b0f9243178c8033234f2386baf0abf8145e7a4bd45546d7b7",
+    "sitemap.xml": "b7333495b51a0dcee78620d616145f12d3fe142a1872eb901e5cc6a4634e5294",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "853857671891117282d832de9bc1ed912c39fb01f9a275dd14e2d1e10424dba4",
+    "robots.txt": "f56d2bd8c160024cdaac1ea7c7fcb295d8bc23c659060fbcd6dfe6c7f5b96e76",
+    "fc80ee20f13b96978c826ca542e97df2.txt": "365907370921f16f9c017faf1afc5c7ae8c66720fd86622bd848a1e3073807b8"
+  },
+  "revision": "109ac40237eb3660d04b6b49fa645833b3ec5ce80f17533169b57e625904e276"
+}
